@@ -1,0 +1,60 @@
+body{
+  padding:0;
+  margin:0;
+}
+.container{
+  width:80%;
+  margin:auto;
+}
+/* header */
+nav{
+	background-color: #2969B0;
+	height: 70px;
+  width:100%;
+  position:fixed;
+}
+.logo img{
+  height:70px;
+  float:left;
+  padding:5px 0;
+}
+.logo h2{
+  font-family:Calibri;
+  color:white;
+  float:left;
+  font-size:35px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.menu{
+  float:right;
+  margin:5px 0;
+}
+.menu ul li{
+  display:inline;
+  padding:20px 20px;
+  border-radius:5px;
+}
+li a{
+  text-decoration:none;
+  font-family:Calibri;
+  font-size:20px;
+  color:white;
+}
+.menu li:hover{
+  background-color:white;
+}
+.menu li a:hover{
+  color:#2969B0;
+}
+.slider img{
+  width:100%;
+}
+/* main */
+.program h2{
+  text-align:center;
+  font-family:Calibri;
+}
+.program p{
+  text-align:justify;
+}
